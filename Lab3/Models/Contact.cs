@@ -7,7 +7,7 @@ namespace Lab3.Models
     public class Contact
     {
         public int ContactId { get; set;}
-        [Required(ErrorMessage = "Please enter a valid first name")]
+        [Required(ErrorMessage = "Please enter a valid First Name")]
         public string firstName { get; set; }
         [Required(ErrorMessage = "Please enter a valid last name")]
         public string lastName { get; set; }
